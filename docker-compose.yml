@@ -5,3 +5,8 @@ services:
     tty: true
     volumes:
       - .:/adding-up
+    ports:
+      - "5000:5000"
+      - "8080:8080"
+      - "8888:8888"
+      - "2222:22"
